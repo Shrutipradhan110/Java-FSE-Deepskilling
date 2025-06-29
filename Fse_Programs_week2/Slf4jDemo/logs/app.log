@@ -1,0 +1,7 @@
+16:43:45.442 [main] INFO  com.example.AppenderExample - This message will be logged to both console and file.
+16:43:45.444 [main] WARN  com.example.AppenderExample - This is a warning message with appenders.
+16:43:45.444 [main] ERROR com.example.AppenderExample - This is an error message written via multiple appenders.
+16:44:48.844 [main] ERROR com.example.LoggingExample - This is an error message
+16:44:48.845 [main] WARN  com.example.LoggingExample - This is a warning message
+16:44:54.114 [main] INFO  com.example.ParameterizedLogging - User Shruti has attempted to login 3 times
+16:44:54.117 [main] DEBUG com.example.ParameterizedLogging - Debugging login for user Shruti
