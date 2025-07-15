@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "6596c0fe-3622-4c78-8aab-f9b5fcd8d94d",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "46762404",
+		"_collection_link": "https://shruti-4581165.postman.co/workspace/shruti's-Workspace~56cdf19a-85f3-46f3-8291-a145c8a4e694/collection/46762404-6596c0fe-3622-4c78-8aab-f9b5fcd8d94d?action=share&source=collection_link&creator=46762404"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/id/123\n",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/id/123\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/names",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/names"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/greet?name=Shruti\n",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/greet?name=Shruti\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"greet"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Shruti\n"
+						}
+					]
+				},
+				"description": "## API Endpoint: Greet User\n\n### Description\n\nThis endpoint allows users to receive a personalized greeting message based on the provided name. It is a simple GET request that takes a name as a query parameter and returns a greeting response.\n\n### Request Format\n\n- **Method**: GET\n    \n- **URL**: `http://localhost:8080/api/greet`\n    \n- **Query Parameters**:\n    \n    - `name` (string): The name of the user to be greeted. This parameter is required.\n        \n\n### Example Request\n\n```\nGET http://localhost:8080/api/greet?name=Shruti\n\n ```\n\n### Response Structure\n\nThe response will be a JSON object containing a greeting message. The structure of the response is as follows:\n\n- **greeting** (string): A message that includes the name provided in the request.\n    \n\n### Example Response\n\n``` json\n{\n  \"greeting\": \"Hello, Shruti!\"\n}\n\n ```\n\n### Notes\n\n- Ensure that the `name` parameter is properly URL-encoded if it contains special characters.\n    \n- The response will vary based on the name provided in the request."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/country"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/countries/in",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/countries/in"
+			},
+			"response": []
+		}
+	]
+}
